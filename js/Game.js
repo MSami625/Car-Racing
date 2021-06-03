@@ -25,7 +25,7 @@ class Game {
         playerCount = playerCountRef.val();
         player.getCount();
       }
-      form = new Form()
+      form = new Form();
       form.display();
     }
 
@@ -98,6 +98,6 @@ class Game {
   }
 
   end(){
-    console.log("Game Ended");
+    alert("Game Ended");
   }
 }
